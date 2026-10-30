@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4814510054061078973}
   - component: {fileID: 2555948991413823611}
   - component: {fileID: 1707139948693323623}
+  - component: {fileID: -4637891054777794345}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -165,6 +166,22 @@ MonoBehaviour:
   m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &-4637891054777794345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6760800203361166234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee2592711bd80a041a30c5d8481b39a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FirstPersonMover
+  moveSpeed: 4
+  lookSpeed: 0.1
+  cam: {fileID: 0}
+  canMove: 1
 --- !u!1 &7552950602709859103
 GameObject:
   m_ObjectHideFlags: 0
